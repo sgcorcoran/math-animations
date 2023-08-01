@@ -3,7 +3,20 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+parts:
+  # - caption: Front Matter
+  #   numbered: false
+  #   chapters:
+  #   - file: genindex
+#    
+  - caption: Math Animations
+    numbered: true
+    chapters:
+    - file: notebooks/01_working
+
+#
+  # - caption: Appendix
+  #   numbered: true
+  #   chapters:
+  #   - file: 
+#
