@@ -1,0 +1,7 @@
+.ipynb_checkpoints/
+archive/
+_build/
+readme*
+Readme*
+*[!t]ignore*
+*hard_link*
